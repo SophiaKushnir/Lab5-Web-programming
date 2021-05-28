@@ -1,0 +1,16 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "auth passport",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "auth",
+    "passport"
+  ],
+  "author": "name",
+  "license": "ISC"
+}
+

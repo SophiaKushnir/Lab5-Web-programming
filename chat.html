@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"> </script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+   
+   <script src="chat.js"></script>
+   <link rel="stylesheet" href="styles.css">
+    <title>MyChat</title>
+</head>
+<body>
+    <section class="msger">
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <i class="fas fa-comment-alt"></i> SimpleChat
+          </div>
+          <div class="msger-header-options">
+            <span><i class="fas fa-cog"></i></span>
+          </div>
+        </header>
+      
+        <main class="msger-chat" id="chat">
+          
+      
+          
+        </main>
+      
+        <form class="msger-inputarea" >
+          <input id="input" type="text" class="msger-input" placeholder="Enter your message...">
+          <input id="formSubmit" type="submit"  class="msger-send-btn" value='Send'  onclick='AddMessageClick()'/>
+        </form>
+      </section>
+
+      <form value="Log out"  method="get" action="/logout">
+        <input type="submit" value='Log out'/>
+      </form>
+</body>
+</html>
+
+
+
